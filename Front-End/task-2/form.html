@@ -3,29 +3,105 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+  <head>
+    <title>Document</title>
 
-  <body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="form-body">
     <div class="form-box">
       <form>
-        <label>First Name :</label>
-        <input type="text" />
-        <label>Last Name :</label>
-        <input type="text" />
-        <label>Email :</label>
-        <input type="email" />
-        <label>phone :</label>
-        <input type="tel" />
+        <table style="width: 80%;border-spacing:0 25px">
+          <tr>
+            <td><label for="name">First Name :</label></td>
+            <td>
+              <input
+                type="text"
+                id="name"
+                name="first name"
+                placeholder="Mohamed"
+                required
+              />
+            </td>
+          </tr>
 
-        <div class="time">
-          <label>book from</label>
-          <input type="time" />
-          <br />
-          <label>book to</label>
-          <input type="time"/>
-        </div>
+          <tr>
+            <td><label for="name">Last Name :</label></td>
+            <td>
+              <input
+                type="text"
+                id="name"
+                name="last name"
+                placeholder="Ahmed"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="email">Email Address :</label></td>
+            <td>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="your name@email.com"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="phone">Phone :</label></td>
+            <td>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="+20100***1073"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label>Book From :</label></td>
+            <td><input type="time" name="book_from" required /></td>
+          </tr>
+
+          <tr>
+            <td><label>Book To :</label></td>
+            <td><input type="time" name="book_to" required /></td>
+          </tr>
+
+          <tr>
+            <td style="vertical-align: top">
+              <label for="notes">Additional Notes :</label>
+            </td>
+            <td>
+              <textarea
+                id="notes"
+                name="notes"
+                placeholder="Any special requests?"
+                rows="5"
+                style="width: 100%"
+              ></textarea>
+            </td>
+          </tr>
+        </table>
 
         <button type="submit" class="submit">Submit</button>
       </form>
     </div>
+
+    <footer class="Sec-footer">
+    <p>&copy; 2026 Park Pilot | All Rights Reserved</p>
+    <div class="linksfooter">
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+    </div>
+    <p class="footer-s">Smart Parking Solution</p>
+</footer>
   </body>
 </html>
