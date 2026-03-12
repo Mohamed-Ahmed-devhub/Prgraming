@@ -344,31 +344,40 @@ input:hover {
 
 
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
-    .Sec-1 h1 { font-size: 80px; }
-    .NavPar { width: 50%; }
-}
 
-
-@media screen and (min-width: 786px) and (max-width: 992px) {
-    .Sec-1 h1 { font-size: 70px; }
-    .NavPar { width: 60%; }
-}
-
-
-@media screen and (min-width: 576px) and (max-width: 786px) {
-    .Sec-1 h1 { font-size: 55px; }
-    .NavPar { width: 80%; }
-    .NavPar a { font-size: 20px; }
-}
-
-
-@media screen and (max-width: 576px) {
-    .Sec-1 h1 { font-size: 40px; }
-    .NavPar { 
-        width: 95%; 
-        padding: 10px; 
-        justify-content: center; 
+@media (max-width: 600px) {
+    .form-body {
+        padding: 10px;
     }
-    .NavPar a { font-size: 15px; margin-right: 10px; }
+
+    table, tbody, tr, td {
+        display: block;
+        width: 100% !important;
+    }
+
+    table {
+        border-spacing: 0 10px !important;
+    }
+
+    td label {
+        display: block;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+
+    
+    input, textarea, select {
+        width: 100% !important;
+        box-sizing: border-box; 
+    }
+
+    
+    .headerform h2 {
+        font-size: 20px;
+    }
+
+    .submit {
+        width: 100%;
+        margin: 20px 0;
+    }
 }
