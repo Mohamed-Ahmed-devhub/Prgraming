@@ -1,0 +1,19 @@
+{
+  "folders": [
+	{
+		"path": "../cpp-basic/main.cpp"
+	},
+	{
+		"path": "../cpp-basic/Programing010"
+	},
+	{
+		"path": "../cpp-basic/Cpp_Elzero"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Front-End"
+  }
+}
