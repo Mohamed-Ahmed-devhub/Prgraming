@@ -10,7 +10,7 @@ This is my second project. It is a simple website for booking a parking spot.
 
 ## Link
 You can see the website here:
-[Click here to open](حط-اللينك-بتاعك-هنا)
+[Click here to open](https://bit.ly/4112Mdf)
 
 ## Tools I used:
 * HTML (Structure)
