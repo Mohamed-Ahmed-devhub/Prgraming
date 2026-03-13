@@ -343,41 +343,39 @@ input:hover {
 
 
 
-
-
-@media (max-width: 600px) {
-    .form-body {
-        padding: 10px;
+@media (max-width: 768px) {
+    
+    * {
+        box-sizing: border-box;
     }
 
-    table, tbody, tr, td {
+    body {
+        overflow-x: hidden;
+        padding: 5px;
+    }
+
+    
+    img {
+        max-width: 100% !important;
+        height: auto !important;
         display: block;
+        margin: 0 auto 10px; 
+    }
+
+    .welcome-section, .images-grid { 
+        display: block !important;
         width: 100% !important;
+        text-align: center;
     }
 
     table {
-        border-spacing: 0 10px !important;
-    }
-
-    td label {
-        display: block;
-        margin-bottom: 5px;
-        text-align: left;
-    }
-
-    
-    input, textarea, select {
         width: 100% !important;
-        box-sizing: border-box; 
+        display: block;
     }
-
     
-    .headerform h2 {
-        font-size: 20px;
-    }
-
-    .submit {
-        width: 100%;
-        margin: 20px 0;
+    td, tr {
+        display: block;
+        width: 100% !important;
+        padding: 10px 0;
     }
 }
