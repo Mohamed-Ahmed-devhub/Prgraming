@@ -343,42 +343,11 @@ input:hover {
 
 
 
-@media screen and (max-width: 786px) {
-    * {
-        box-sizing: border-box;
-    }
-
-    body {
-        overflow-x: hidden;
-        margin: 0;
-        padding: 0;
-    }
-
-    
-    img {
-        max-width: 100% !important;
-        height: auto !important;
-    }
-
-    
-    div, section, header, .container, .parent {
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
-        width: 100% !important;
-        padding: 10px !important;
-        float: none !important;
-        position: static !important;
-    }
-
-    
-    div > * {
-        margin-bottom: 15px !important;
-    }
+html, body {
+    min-width: 1200px; 
+    overflow-x: auto;
 }
 
-@media screen and (max-width: 576px) {
-    body {
-        background-color: brown;
-    }
+img { 
+    max-width: none !important;
 }
